@@ -28,9 +28,7 @@ h1{
     width: 180px;
     height: 180px;
 }
-.section{
-    padding: 2px 10px;
-}
+
 h2{
     padding: 2px 2px 2px 2px;
     font-size: 30px;
@@ -49,7 +47,7 @@ h2{
 }
 section .items-art {
     position: absolute;
-    left: 100px;
+    left: 150px;
     margin: 0px 10px 5px 20px;
     padding: 15px 20px;
 }
@@ -69,4 +67,112 @@ h5{
 #navbar{
     position: relative;
     top: 350px;
-} 
+}
+
+/* Rules section */
+
+.items-art-rules{
+    margin-left: 6%;
+}
+.conteiner-rules p{
+    padding: 2px 4px 0px 4px;
+    margin: 2px 4px 0px 4px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.title-rules{
+    background-color: #fff;
+    color: black;
+    padding: 5px 2px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
+.conteiner2{
+    padding: 2px 10px;
+    margin: 5%;
+}
+.title2-rules{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 0px;
+    margin: 10px 0px;
+
+}
+.conteiner2 p{
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 3%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.section-rules li{
+    padding: 5px 0px;
+    margin: 5px 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.lista-items{
+    margin: 10px;
+    padding: 5px;
+}
+.conteiner3 p{
+    text-indent: 0;
+}
+.lista-items2{
+    line-height: 10px;
+}
+.conteiner4 p{
+    text-indent: 3%;
+}
+.item1{
+    margin-left: 5%;
+    list-style-type: circle;
+}
+
+/* Game info */
+
+.conteiner-game1{
+    margin-left: 5%;
+}
+.title-rules{
+    padding: 10px 2px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+}
+.conteiner-game1 h4{
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 10px;
+}
+.conteiner-game1 h5{
+    margin-left: 8%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    text-decoration:underline;
+    line-height: 10px;
+}
+.table-games{
+    margin-left: 8%;    
+}
+table {
+    margin:25px;
+    padding: 25px;
+    width: 70%;
+}
+tr, td {
+    width: 30%;
+    padding-top: 10px;
+}
+
+
