@@ -71,6 +71,7 @@ h5{
 /* Rules section */
 
 .items-art-rules{
+    position: relative;
     margin-left: 6%;
 }
 .conteiner-rules p{
@@ -133,6 +134,7 @@ h5{
 /* Game info */
 
 .conteiner-game1{
+    position: relative;
     margin-left: 5%;
 }
 .title-rules{
@@ -188,4 +190,49 @@ td{
 }
 .email{
     margin-left: 10%;
+}
+
+/* Form */
+
+.title-form{
+    text-align: center;
+    font-size: 35px;
+    padding: 5px;
+    margin: 10px;
+}
+.form-section {
+    width: fit-content;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 10%;
+} 
+.form-section label{
+    border: none;
+    display: block;
+    margin: 5px 0px;
+}
+.form-section label input{
+    margin: 3px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px 0px;
+}
+span{
+    font-size: 18px;
+    font-weight:bold;
+}
+.last-form h4{
+    font-size: 18px;
+}
+.last-form p { 
+    font-size: 18px;
+    font-weight: 500;
+}
+.last-form label{
+    font-weight: 200;
+    font-size: 17px;
 }
