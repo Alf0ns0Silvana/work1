@@ -26,6 +26,7 @@ h1{
     margin: 0px 10px;
     width: 180px;
     height: 180px;
+    z-index: 99;
 }
 
 h2{
@@ -192,6 +193,25 @@ td{
     margin-left: 10%;
 }
 
+/* maps */
+
+.ubicaciones-juegos{
+    padding: 0px 5px;
+    margin: 0px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.maps {
+    margin: 0px 10px;
+    padding: 5px 20px;
+}
+.title-maps{
+    font-size: 20px;
+    text-align: center;
+}
+
 /* Form */
 
 .title-form{
@@ -201,15 +221,14 @@ td{
     margin: 10px;
 }
 .form-section {
-    width: fit-content;
     position: absolute;
     margin-top: 8px;
     margin-left: 10%;
 } 
 .form-section label{
     border: none;
-    display: block;
-    margin: 5px 0px;
+    display: inline-block;
+    padding: 5px 0px
 }
 .form-section label input{
     margin: 3px 10px;
@@ -226,6 +245,7 @@ span{
     font-weight:bold;
 }
 .last-form h4{
+    padding-top: 10px;
     font-size: 18px;
 }
 .last-form p { 
@@ -235,4 +255,14 @@ span{
 .last-form label{
     font-weight: 200;
     font-size: 17px;
+}
+.button {
+    cursor: pointer;
+    display: block;
+    margin: 15px auto;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 10% ;
+    background-color: lightgrey;
 }

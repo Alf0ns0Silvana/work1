@@ -19,6 +19,7 @@
                 <a class="links" href="./about.html">About MDHL </a>
                 <a class="links" href="./contact.html">Contact</a>
                 <a class="links" href="./game_info.html">Game info </a>
+                <a class="links" href="./Formulario.html">Formulario</a>
                 <a class="links" href="./rules.html">Rules & play policies</a>
             </nav>
         </div>
@@ -31,63 +32,51 @@
     </div> 
         <section class="form-section">
             <form action="showdata.html" method="get">
-                <label>Player's First Name:
-                <input name="nombre" type="text"> Last Name:    
-                    <input name="apellido" type="text"></label>
-                <label>Street Address:
-                <input name="direccion" type="text"></label>
-                    <label>City:
-                    <input name="ciudad" type="text"> Zip Code:
-                <input name="co-postal" type="text"></label> 
-                    <label>Birth date (mm/dd/yyyy):
-                    <input name="birthdate" type="date"> Gender:
-                        <input name="female" type="checkbox">Female
-                        <input name="male" type="checkbox">Male</label>                        
-                <label>Grade:
-                    <input name="grade" type="checkbox" value="Pre-school">Pre-School
-                    <input name="grade" type="checkbox" value="1st">1st
-                    <input name="grade" type="checkbox" value="2nd">2nd
-                    <input name="grade" type="checkbox" value="3rd">3rd
-                    <input name="grade" type="checkbox" value="4th">4th
-                    <input name="grade" type="checkbox" value="5th">5th </label>
-            </form> 
-            <form action="showdata.html" method="get">
-                <p>Which elementary school do you live near?</p>
-                    <span>Closest school: </span>
-                    <label>
-                        <input name="school1" type="checkbox" value="AJ Katzenmaier">AJ Katzenmaier
-                        <input name="school2" type="checkbox" value="Marjorie P Hart">Marjorie P Hart <br>
-                        <input name="school3" type="checkbox" value="Greenbay">Greenbay
-                        <input name="school4" type="checkbox" value="North Elementary">North Elementary <br>
-                        <input name="school5" type="checkbox" value="Howard A Yaeger">Howard A Yaeger
-                        <input name="school6" type="checkbox" value="South Elementary">South Elementary</label>
-                <p>What position(s) do you normally play? (check all that apply)</p>
-                    <label>
-                        <input name="position1" type="checkbox" value="Forward ">Forward
-                        <input name="position2" type="checkbox" value="Midfield">Midfield <br>
-                        <input name="position3" type="checkbox" value="Defense">Defense
-                        <input name="position4" type="checkbox" value="Goalkeeper">Goalkeeper </label>
-                <p>Uniform Size: </p>
-                    <label>
-                        <input name="size1" type="checkbox" value="size1">Youth Small
-                        <input name="size2" type="checkbox" value="size2">Medium <br>
-                        <input name="size3" type="checkbox" value="size3">Youth Medium
-                        <input name="size4" type="checkbox" value="size4">Large <br>
-                        <input name="size5" type="checkbox" value="size5">Youth Large
-                        <input name="size6" type="checkbox" value="size6">Extra-Large <br>
-                        <input name="size7" type="checkbox" value="size7">Small</label> <br>
-            </form>
-                    <div class="last-form" >
-                         <h4>Permission to Play<h4>
+                <label>Player's First Name:<input type="text" name="Nombre" ></label>
+                <label>Last Name: <input type="text" name="Apellido" ></label> <br>
+                <label>Street Address:<input name="Direccion" type="text"></label> <br>
+                <label>City:<input name="Ciudad" type="text"></label>
+                <label>Zip Code:<input name="Co-postal" type="text"></label> <br>
+                <label>Birth date (mm/dd/yyyy):<input name="Birthdate" type="date"></label> 
+                Gender:  
+                <label>Female<input name="Gender" type="checkbox" value="Female"></label>
+                <label>Male<input name="Gender" type="checkbox" value="Male"></label> <br>  
+                Grade:                      
+                <label><input name="Grade" type="radio" value="Pre-school">Pre-School</label>
+                <label><input name="Grade" type="radio" value="1st">1st</label>
+                <label><input name="Grade" type="radio" value="2nd">2nd</label>
+                <label><input name="Grade" type="radio" value="3rd">3rd</label>
+                <label><input name="Grade" type="radio" value="4th">4th</label>
+                <label><input name="Grade" type="radio" value="5th">5th</label>
+            <p>Which elementary school do you live near?</p>
+                <span>Closest school:</span> <br>
+                <label><input name="School" type="checkbox" value="AJ Katzenmaier">AJ Katzenmaier</label>
+                <label><input name="School" type="checkbox" value="Marjorie P Hart">Marjorie P Hart</label> <br>
+                <label><input name="School" type="checkbox" value="Greenbay">Greenbay</label>
+                <label><input name="School" type="checkbox" value="North Elementary">North Elementary</label> <br>
+                <label><input name="School" type="checkbox" value="Howard A Yaeger">Howard A Yaeger</label>
+                <label><input name="School" type="checkbox" value="South Elementary">South Elementary</label>
+            <p>What position(s) do you normally play? (check all that apply)</p>
+                <label><input name="Position" type="checkbox" value="Forward ">Forward</label>
+                <label><input name="Position" type="checkbox" value="Midfield">Midfield</label> <br>
+                <label><input name="Position" type="checkbox" value="Defense">Defense</label>
+                <label><input name="Position" type="checkbox" value="Goalkeeper">Goalkeeper</label>
+            <p>Uniform Size: </p>
+                <label><input name="Size" type="checkbox" value="Youth Small">Youth Small</label>
+                <label><input name="Size" type="checkbox" value="Medium">Medium </label> <br>
+                <label><input name="Size" type="checkbox" value="Youth Medium">Youth Medium</label>
+                <label><input name="Size" type="checkbox" value="Large">Large </label> <br>
+                <label><input name="Size" type="checkbox" value="Youth Large">Youth Large</label>
+                <label><input name="Size" type="checkbox" value="Extra-Large">Extra-Large</label> <br>
+                <label><input name="Size" type="checkbox" value="Extra-Large">Small</label>
+                    <div class="last-form">
+                         <h4>Permission to Play</h4>
                             <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personal and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation 
-                            By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms. 
-                            Parent/GuardianSignature:</p>
-            <form action="showdata.html" method="get">
-                 <label>Parent/Guardian Signature:  
-                        <input name="signature" type="text"></label>
-                <label>Date:
-                        <input name="date" type="text"></label> 
-            </form>
-                    </div>
+                            By signing below, I herebyagree and authorizethe above. In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                <label>Parent/Guardian Signature:<input name="Signature" type="text">.</label> <br>
+                <label> Date:<input name="Date" type="date">.</label> 
+                    <button class="button"> Send </button>
+                </div>
+             </form>
         </section>
 </body>
